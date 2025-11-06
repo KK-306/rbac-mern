@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # MERN RBAC Extended (JWT) — Custom CSS
 Features:
 - Roles: admin, manager, user
@@ -22,3 +23,7 @@ npm run dev
 
 Client: http://localhost:5173
 Server: http://localhost:4000
+=======
+# rbac-mern
+ A mern stack based RBAC System (ROLE BASED ACCESS CONTROL)
+>>>>>>> c91ad16cf4f4c324695068ee2f243a116e9f5e1e
