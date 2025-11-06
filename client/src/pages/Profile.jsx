@@ -1,0 +1,1 @@
+export default function Profile(){ const user=JSON.parse(localStorage.getItem("user")||"null"); return (<div className="card"><h2>👤 Profile</h2>{user?(<ul><li><strong>Name:</strong> {user.name||"(none)"}</li><li><strong>Email:</strong> {user.email}</li><li><strong>Role:</strong> <span className="tag">{user.role}</span></li></ul>):(<p>No user found.</p>)}</div>); }

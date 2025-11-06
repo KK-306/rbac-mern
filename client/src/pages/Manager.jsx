@@ -1,0 +1,1 @@
+export default function Manager(){return (<div className='card'><h2>🧩 Manager Area</h2><p>Only <span class='tag'>manager</span> and <span class='tag'>admin</span> can see this.</p></div>);}

@@ -1,0 +1,1 @@
+export default function Admin(){return (<div className='card'><h2>🛡️ Admin Panel</h2><p>Only <span class='tag'>admin</span> can see this.</p></div>);}
