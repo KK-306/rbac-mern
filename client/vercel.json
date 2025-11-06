@@ -1,8 +1,7 @@
 {
   "version": 2,
-  "rootDirectory": "client",
   "builds": [
-    { "src": "index.html", "use": "@vercel/static-build" }
+    { "src": "client/index.html", "use": "@vercel/static-build" }
   ],
   "routes": [
     { "src": "/(.*)", "dest": "/index.html" }
